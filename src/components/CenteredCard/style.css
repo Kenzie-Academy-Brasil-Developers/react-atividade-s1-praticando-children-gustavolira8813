@@ -1,0 +1,20 @@
+.box {
+  color: rgba(223, 14, 32, 0.925);
+  text-align: center;
+  width: 280px;
+  height: 200px;
+  background-color: rgba(181, 201, 5, 0.842);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  flex-direction: column;
+  margin: 5px;
+  align-items: stretch;
+}
+.box span {
+  background-color: teal;
+  text-align: center;
+}
+.box span:hover {
+  filter: brightness(2) contrast(2);
+}
