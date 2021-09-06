@@ -23,9 +23,18 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="container">
-          <CenteredCard person={person} />
+          {/* <CenteredCard person={person} />
           <CenteredCard person={person1}></CenteredCard>
-          <CenteredCard person={person2} />
+          <CenteredCard person={person2} /> */}
+          <CenteredCard>
+            <h1>Filho 1</h1>
+          </CenteredCard>
+          <CenteredCard>
+            <h1>Filho 2</h1>
+          </CenteredCard>
+          <CenteredCard>
+            <h1>Filho 3</h1>
+          </CenteredCard>
         </div>
       </header>
     </div>

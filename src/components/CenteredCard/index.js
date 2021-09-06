@@ -1,11 +1,12 @@
 import "./style.css";
 
-function CenteredCard({ person: { name, age, country } }) {
+function CenteredCard(props) {
   return (
     <div className="box">
-      <span>Nome: {name}</span>
+      {/* <span>Nome: {name}</span>
       <span>Idade: {age}</span>
-      <span>Nacionalidade: {country}</span>
+      <span>Nacionalidade: {country}</span> */}
+      <div>{props.children}</div>
     </div>
   );
 }
